@@ -15,7 +15,7 @@ function BottomBar() {
             </div>
 
 
-            <div class="bg-zinc-800 py-10  sm:px-12 text-white mt-20 w-full">
+            <div class="bg-zinc-800 bg-opacity-90 py-10  sm:px-12 text-white mt-20 w-[1519px] ">
                 <div class="flex flex-wrap justify-center gap-8 max-w-7xl mx-auto">
 
                     <div class="flex flex-col items-center flex-1 min-w-[150px]">
