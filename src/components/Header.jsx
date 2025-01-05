@@ -2,41 +2,20 @@ import React from 'react';
 
 function Header() {
     return (
-        <div className="relative w-full h-[700px] flex justify-center items-center overflow-hidden">
-            {/* Background Image */}
-            <img
-                src="images/BG.png"
-                alt="Background Image"
-                className="absolute top-0 left-0 w-full h-full object-cover"
-            />
 
-            {/* Background Shape (Responsive boyutlandırma eklendi) */}
-            <img
-                src="images/Bg-Shape.png"
-                alt="Background Shape"
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
-                       w-[80%] sm:w-[90%] lg:w-[1100px] h-auto"
-            />
+        <div class="relative flex items-center justify-center px-4 sm:px-6 md:px-8 bg-[#FDCA09]  bg-no-repeat h-[250px] sm:h-[300px] md:h-[376px] lg:h-[500px] xl:h-[600px] bg-[url('images/Bg-Shape.png')] bg-bottom bg-contain">
 
-            {/* Hero Image (Responsive genişlik ve konumlandırma) */}
+            <h1 class="absolute text-center top-1/4 text-black text-[16px] sm:text-[24px] md:text-[36px] lg:text-[48px] xl:text-[60px] font-bold">
+                Let’s create something <br /> great together.
+            </h1>
             <img
                 src="images/Hero.png"
-                alt="Hero Image"
-                className="absolute bottom-0 left-1/2 transform -translate-x-1/2 
-                       w-[70%] sm:w-[85%] lg:w-[95%] max-w-[1200px] h-auto"
+                alt=""
+                class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%] xl:w-[70%] h-auto"
             />
-
-            {/* Text Section (Responsive margin ve yazı boyutları) */}
-            <div className="absolute top-16 w-full text-center z-10 px-4">
-                <p className="text-black text-2xl sm:text-4xl lg:text-7xl font-bold">
-                    Let's create something
-                </p>
-                <p className="text-black text-2xl sm:text-4xl lg:text-7xl font-bold">
-                    great together.
-                </p>
-            </div>
         </div>
-    );
+
+    )
 }
 
 export default Header;
