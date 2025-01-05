@@ -19,20 +19,20 @@ function BottomBar() {
             <div className="bg-black bg-opacity-80 py-7 mt-16">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
                     <div>
-                        <p className="text-yellow-500 text-[24px] sm:text-[28px] md:text-[32px] font-bold">350M +</p>
-                        <p className="text-yellow-500 text-[16px] sm:text-[18px] md:text-[20px]">Client Worldwide</p>
+                        <p className="text-yellow-500 text-[24px] sm:text-[28px] md:text-[32px] font-bold text-xl">350 +</p>
+                        <p className="text-white text-[16px] sm:text-[18px] md:text-[20px]">Client Worldwide</p>
                     </div>
                     <div>
-                        <p className="text-yellow-500 text-[24px] sm:text-[28px] md:text-[32px] font-bold">20 +</p>
-                        <p className="text-yellow-500 text-[16px] sm:text-[18px] md:text-[20px]">Team Members</p>
+                        <p className="text-yellow-500 text-[24px] sm:text-[28px] md:text-[32px] font-bold text-xl ">20 +</p>
+                        <p className="text-white text-[16px] sm:text-[18px] md:text-[20px]">Team Members</p>
                     </div>
                     <div>
-                        <p className="text-yellow-500 text-[24px] sm:text-[28px] md:text-[32px] font-bold">100 +</p>
-                        <p className="text-yellow-500 text-[16px] sm:text-[18px] md:text-[20px]">Project Completed</p>
+                        <p className="text-yellow-500 text-[24px] sm:text-[28px] md:text-[32px] font-bold text-xl ">100 +</p>
+                        <p className="text-white text-[16px] sm:text-[18px] md:text-[20px]">Project Completed</p>
                     </div>
                     <div>
-                        <p className="text-yellow-500 text-[24px] sm:text-[28px] md:text-[32px] font-bold">85M +</p>
-                        <p className="text-yellow-500 text-[16px] sm:text-[18px] md:text-[20px]">Revenue Generated</p>
+                        <p className="text-yellow-500 text-[24px] sm:text-[28px] md:text-[32px] font-bold text-xl ">85M +</p>
+                        <p className="text-white text-[16px] sm:text-[18px] md:text-[20px]">Revenue Generated</p>
                     </div>
                 </div>
             </div>
