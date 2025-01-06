@@ -4,13 +4,13 @@ function BottomBar() {
     return (
 
         <div>
-            <div className="flex mt-[150px] justify-center text-center">
+            <div className="flex mt-[100px] justify-center text-center">
                 <h1 className="text-black text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] font-bold  ">
                     Meet the heroes behind the magic
                 </h1>
             </div>
 
-            <div className="flex flex-wrap sm:flex-row justify-center items-center gap-6 mt-10">
+            <div className="flex flex-wrap sm:flex-row justify-center items-center gap-6 mt-16">
                 {["Founder", "Developer", "Designer"].map(role => (
                     <img
                         key={role}

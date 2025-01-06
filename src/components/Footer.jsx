@@ -3,13 +3,14 @@ import React from 'react'
 function Footer() {
     return (
         <div className="relative flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 mt-[100px]">
-            <div className="relative w-full sm:w-3/4 md:w-1/2 lg:w-1/4 xl:w-1/8 mt-20 mb-16 mr-8">
+            <div className="relative w-full sm:w-3/4 md:w-1/2 lg:w-1/4 xl:w-1/8 mt-20 mb-16 mr-0 md:mr-8">
                 <img
                     src="images/SideImage.png"
                     alt="Side Image"
-                    className="w-full shadow-lg shadow-gray-500 rounded-lg"
+                    className="w-3/4 sm:w-2/3 md:w-full mx-auto shadow-lg shadow-gray-500 rounded-lg"
                 />
             </div>
+
 
             <div className="w-full sm:w-3/4 md:w-1/2 flex flex-col justify-center items-center md:items-end px-1">
                 <div className="text-center md:text-right mb-4">
