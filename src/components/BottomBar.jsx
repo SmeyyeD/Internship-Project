@@ -4,8 +4,8 @@ function BottomBar() {
     return (
 
         <div>
-            <div className="flex mt-[250px] justify-center text-center">
-                <h1 className="text-black text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] font-bold">
+            <div className="flex mt-[150px] justify-center text-center">
+                <h1 className="text-black text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] font-bold  ">
                     Meet the heroes behind the magic
                 </h1>
             </div>
@@ -21,7 +21,7 @@ function BottomBar() {
                 ))}
             </div>
 
-            <div className="bg-black bg-opacity-80 py-7 mt-16">
+            <div className="bg-black bg-opacity-80 py-7 mt-[150px]">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
                     {[
                         { value: "350 +", label: "Client Worldwide" },
