@@ -2,8 +2,8 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className="relative flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 mt-[100px]">
-            <div className="relative w-full sm:w-3/4 md:w-1/2 lg:w-1/4 xl:w-1/8 mt-20 mb-16 mr-0 md:mr-8">
+        <div className="relative flex flex-col md:flex-row items-center justify-center px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 mt-[50px] mb-16 space-y-10 md:space-y-0">
+            <div className="relative w-full sm:w-3/4 md:w-1/2 lg:w-1/4 xl:w-1/8 mt-20 mb-16 md:mb-0 mr-0 md:mr-8">
                 <img
                     src="images/SideImage.png"
                     alt="Side Image"
@@ -56,7 +56,7 @@ function Footer() {
                     </div>
                 </form>
             </div>
-        </div>
+        </div >
 
 
 
